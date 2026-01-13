@@ -1,0 +1,22 @@
+# build artifacts
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+
+# ide
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# logs
+*.log
